@@ -23,6 +23,14 @@ body{
     font-family: var(--main-font-family-light);
 }
 
+h1, h2, h3{
+    font-family: var(--main-font-family-bold);
+}
+
+p{
+    font-family: var(--main-font-family-medium);
+}
+
 a {
     text-decoration: none;
 }
@@ -43,4 +51,8 @@ img{
 
 .nav-link{
     color: #fff !important;
+}
+
+.hero-description{
+    line-height: 2rem;
 }
