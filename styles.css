@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Whitney Light';
+    src: url('./assets/fonts/whitneylight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Whitney Medium';
+    src: url('./assets/fonts/whitneymedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Whitney Bold';
+    src: url('./assets/fonts/whitneybold.woff') format('woff');
+}
+
+:root{
+    --main-font-family-light: 'Whitney Light', sans-serif;
+    --main-font-family-medium: 'Whitney Medium', sans-serif;
+    --main-font-family-bold: 'Whitney Bold', sans-serif;
+}
+
+body{
+    font-family: var(--main-font-family-light);
+}
+
+a {
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* hero */
+.hero{
+    min-height: 100vh;
+    background: url('./assets/images/hero-bg.jpg') center/cover;
+}
+
+.logo{
+    max-width: 9rem;
+}
+
+.nav-link{
+    color: #fff !important;
+}
