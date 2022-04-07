@@ -17,6 +17,7 @@
     --main-font-family-light: 'Whitney Light', sans-serif;
     --main-font-family-medium: 'Whitney Medium', sans-serif;
     --main-font-family-bold: 'Whitney Bold', sans-serif;
+    --off-white-clr: #f6f6f6;
 }
 
 body{
@@ -55,4 +56,20 @@ img{
 
 .hero-description{
     line-height: 2rem;
+}
+
+/* sections */
+.section-1, .section-3{
+    min-height: 100vh;
+}
+
+
+.section-2, .section-4{
+    min-height: 100vh;
+    background-color: var(--off-white-clr);
+}
+
+/* download section */
+.download{
+    background-color: var(--off-white-clr);
 }
